@@ -1,0 +1,22 @@
+main {
+	text-align: center;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+input[type="text"] {
+	width: 250px;
+	font-size: 16px;
+	padding: 5px;
+}
+
+#container {
+	width: 500px;
+	height: 500px;
+	background-color: teal;
+}
+
+#loading {
+	visibility: hidden;
+}
